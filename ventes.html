@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JORGENS PROMO</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+    * { box-sizing:border-box; margin:0; padding:0; font-family:'Poppins', system-ui, Arial, sans-serif; }
+
+    body {
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:flex-start;
+      background: linear-gradient(135deg,#c8facc,#a8e6cf,#56ab2f,#d0f0c0);
+      background-size:400% 400%;
+      animation:bgAnim 15s ease infinite;
+      color:#2f7a33;
+      padding:20px;
+      text-align:center;
+    }
+
+    @keyframes bgAnim{
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+    }
+
+    h1{ font-size:32px; margin-bottom:10px; text-shadow:0 4px 10px rgba(0,0,0,0.2); }
+    p.lead{ font-size:18px; margin-bottom:20px; }
+
+    .btn {
+      display:inline-block;
+      background: linear-gradient(90deg,#56ab2f,#a8e6cf);
+      color:#fff;
+      font-weight:700;
+      padding:12px 20px;
+      border-radius:12px;
+      text-decoration:none;
+      transition: transform 0.2s, box-shadow 0.2s;
+      margin:10px;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    table {
+      width:90%;
+      max-width:800px;
+      border-collapse:collapse;
+      margin-top:30px;
+      background:#fff;
+      color:#2f7a33;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 8px 25px rgba(0,0,0,0.2);
+    }
+    th, td {
+      padding:15px;
+      border-bottom:1px solid #ddd;
+      text-align:left;
+    }
+    th {
+      background:#56ab2f;
+      color:#fff;
+      font-size:18px;
+    }
+    tr:last-child td { border-bottom:none; }
+
+    footer {
+      margin-top:40px;
+      padding:15px;
+      background:rgba(47,122,51,0.9);
+      color:#fff;
+      border-radius:12px;
+      width:100%;
+      max-width:900px;
+      text-align:center;
+      box-shadow:0 6px 20px rgba(0,0,0,0.2);
+    }
+    footer a {
+      color:#a8e6cf;
+      text-decoration:none;
+      font-weight:600;
+    }
+    footer a:hover {
+      text-decoration:underline;
+    }
+    footer img {
+      max-height:50px;
+      margin-bottom:10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Nos Services</h1>
+  <p class="lead">Découvrez tous les services que nous proposons.</p>
+
+  <!-- Boutons -->
+  <div>
+    <a class="btn" href="index.html">⬅ Retour à l'accueil</a>
+    <a class="btn" href="https://wa.me/50944716594?text=Salut%20JORGENS%20PROMO%20HAÏTI%20👋✨%20Bienvenue%20chez%20nous!" target="_blank">📱 WhatsApp</a>
+    <a class="btn" href="https://www.tiktok.com/@jorgenspromohaiti?_r=1&_t=ZM-92BpQyKmEu3" target="_blank">🎵 TikTok</a>
+  </div>
+
+  <!-- Tableau des services -->
+  <table>
+    <tr>
+      <th>Service</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>🎨 Design Graphique</td>
+      <td>Création de logos, flyers, affiches, cartes de visite et visuels professionnels.</td>
+    </tr>
+    <tr>
+      <td>📸 Photographie</td>
+      <td>Séances photo professionnelles pour événements, portraits et produits.</td>
+    </tr>
+    <tr>
+      <td>🎬 Montage Vidéo</td>
+      <td>Édition et montage de vidéos promotionnelles, clips et contenus créatifs.</td>
+    </tr>
+    <tr>
+      <td>🖌 Retouche Photo</td>
+      <td>Amélioration et correction d’images pour un rendu parfait.</td>
+    </tr>
+    <tr>
+      <td>📢 Contenu Réseaux Sociaux</td>
+      <td>Création de visuels et vidéos adaptés pour TikTok, Instagram, Facebook.</td>
+    </tr>
+  </table>
+
+  <!-- Footer -->
+  <footer>
+    <img src="nono.jpg" alt="Logo Manolo Store">
+    <p>&copy; 2025 Jorgens design • Tous droits réservés</p>
+    <p>
+      📞 <a href="https://wa.me/50944716594?text=Salut%20JORGENS%20PROMO%20HAÏTI%20👋✨%20Bienvenue%20chez%20nous!" target="_blank">WhatsApp</a> |
+      🎵 <a href="https://www.tiktok.com/@jorgenspromohaiti?_r=1&_t=ZM-92BpQyKmEu3" target="_blank">TikTok</a>
+    </p>
+  </footer>
+
+</body>
+</html>
